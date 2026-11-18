@@ -1,0 +1,327 @@
+# FORM: https://docs.google.com/forms/d/e/1FAIpQLSdRzbbA1uJvjHCsZJnriEdRV2j4QSNsi5tre0BW0HinUVZQ2A/viewform
+# PHIẾU KHẢO SÁT HỌC SINH – ĐỀ TÀI KHKT
+#
+# Cách điền: ghi SỐ thứ tự đáp án sau dấu "=". Để trống là bỏ qua. Câu có dấu * là bắt buộc.
+# Chọn nhiều: ghi các số cách nhau bằng dấu phẩy, ví dụ: 1,3,4
+# Chọn mục "Khác": ghi  khac: nội dung   (có thể kèm số, ví dụ: 1,3, khac: nội dung)
+# Câu trả lời chữ: ghi thẳng nội dung. Xuống dòng trong đoạn văn thì gõ \n
+
+
+==================== PHẦN 1. THÔNG TIN CHUNG ====================
+
+## Câu 1. Khối lớp: *
+##   [chọn 1]  1=Khối 10 | 2=Khối 11 | 3=Khối 12 | 4=Khối 9
+Q1 = 4
+
+## Câu 2. Giới tính: *
+##   [chọn 1]  1=Nam | 2=Nữ
+Q2 = 2
+
+## Câu 3. Kết quả học tập năm học 2025 – 2026: *
+##   [chọn 1]  1=Tốt | 2=Khá | 3=Đạt | 4=Chưa đạt
+Q3 = 1
+
+==================== PHẦN 2. NỘI DUNG KHẢO SÁT ====================
+
+# ----- I. THỰC TRẠNG TỰ HỌC CỦA HỌC SINH -----
+
+## Câu 1. Mỗi ngày, ngoài giờ học trên lớp, bạn thường dành bao nhiêu thời gian cho việc tự học? *
+##   [chọn 1]  1=Trên 120 phút | 2=Từ 60 đến 120 phút | 3=Từ 30 đến dưới 60 phút | 4=Dưới 30 phút
+Q4 = 2
+
+## Câu 2. Trong buổi tự học ở nhà, bạn thường làm những việc sau ở mức độ nào?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# Lập kế hoạch tự học trong ngày, trong tuần (học môn gì, bài nào)
+Q5.1 = 2
+# Làm bài tập về nhà thầy cô giao
+Q5.2 = 2
+# Làm bài tập về nhà bằng AI cho xong để kịp nộp sáng hôm sau
+Q5.3 = 1
+# Xem trước bài mới trước khi đến lớp
+Q5.4 = 1
+# Hỏi AI tóm tắt bài mới thay vì tự đọc sách giáo khoa
+Q5.5 = 1
+# Ôn tập để chuẩn bị kiểm tra, thi
+Q5.6 = 2
+# Tự tìm hiểu thêm kiến thức ngoài bài học theo sở thích
+Q5.7 = 2
+# Tự kiểm tra lại bài: gấp sách, tự giải thích lại bài bằng lời của mình
+Q5.8 = 3
+# Hoạt động khác (nếu có)
+Q5.9 = 2
+
+## Câu 3. Trong quá trình tự học, bạn thường tham khảo kiến thức từ những nguồn nào sau đây?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# Sách giáo khoa
+Q6.1 = 1
+# Vở ghi trên lớp, tài liệu giáo viên cung cấp
+Q6.2 = 1
+# Hỏi trực tiếp thầy cô, bạn bè
+Q6.3 = 3
+# Video bài giảng trên YouTube, TikTok
+Q6.4 = 1
+# AI tạo sinh (ChatGPT, Gemini...)
+Q6.5 = 2
+# Sách giải, trang web có lời giải sẵn
+Q6.6 = 2
+# Khóa học trực tuyến (Hocmai, Vuihoc...)
+Q6.7 = 3
+# Nguồn khác (nếu có)
+Q6.8 = 3
+
+## Câu 4. Mục tiêu bạn đề ra trong việc tự học của bản thân là gì? (Có thể chọn nhiều đáp án)
+##   [chọn nhiều, cách nhau dấu phẩy]  1=Nắm vững kiến thức bài học | 2=Phát triển năng lực bản thân | 3=Học môn mình đam mê, yêu thích | 4=Chuẩn bị cho kiểm tra, thi cử ở trường | 5=Chuẩn bị cho kì thi vào lớp 10, tốt nghiệp THPT, đại học | 6=Vì bố mẹ nhắc nhở | 7=Vì thầy cô giao bài | 8=Vì bạn bè rủ học | khac=...
+Q7 = 2,5,6,7,8
+
+## Câu 5. Bạn thường bị áp lực bởi những yếu tố nào trong việc tự học?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# Một buổi phải làm bài tập của nhiều môn
+Q8.1 = 1
+# Sợ bị điểm kém, không đạt danh hiệu
+Q8.2 = 3
+# Bố mẹ đặt mục tiêu điểm cao, thi vào trường tốt
+Q8.3 = 3
+# Bài học quá khó, đọc sách không hiểu
+Q8.4 = 1
+# Thiếu thời gian vì học thêm, phụ giúp việc nhà, việc rẫy
+Q8.5 = 2
+# Bị so sánh với bạn cùng lớp
+Q8.6 = 2
+# Thiếu tài liệu, không có ai để hỏi khi học ở nhà
+Q8.7 = 2
+# Yếu tố khác (nếu có)
+Q8.8 = 1
+
+# ----- II. THỰC TRẠNG SỬ DỤNG AI TRONG TỰ HỌC -----
+
+## Câu 1. Bạn thường sử dụng những công cụ AI cho việc tự học ở mức độ nào?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# ChatGPT
+Q9.1 = 1
+# Gemini
+Q9.2 = 3
+# Copilot
+Q9.3 = 2
+# NotebookLM
+Q9.4 = 3
+# Gauth (chụp ảnh đề bài để giải)
+Q9.5 = 1
+# AI trong mạng xã hội (Meta AI, Zalo AI...)
+Q9.6 = 3
+# Công cụ khác (nếu có)
+Q9.7 = 3
+
+## Câu 2. Bạn thường sử dụng công cụ AI hỗ trợ cho việc tự học các môn học ở mức độ nào?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# Toán
+Q10.1 = 2
+# Ngữ văn
+Q10.2 = 2
+# Tiếng Anh
+Q10.3 = 2
+# KHTN (Vật lí, Hóa học, Sinh học)
+Q10.4 = 2
+# KHXH (Lịch sử, Địa lí, GDCD/GDKT&PL)
+Q10.5 = 3
+# Môn học khác (nếu có)
+Q10.6 = 1
+
+## Câu 3. Khi sử dụng AI cho việc tự học, bạn thực hiện những nội dung sau với tần suất như thế nào?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# Chụp đề bài gửi AI (Gauth, ChatGPT...), chép lời giải vào vở
+Q11.1 = 2
+# Nhờ AI viết bài văn, đoạn văn rồi nộp như bài của mình
+Q11.2 = 2
+# Vừa đọc đề đã hỏi AI, chưa tự suy nghĩ
+Q11.3 = 1
+# Dùng AI tra đáp án khi làm bài kiểm tra trực tuyến (Azota, Google Forms...)
+Q11.4 = 2
+# Nhờ AI dịch cả đoạn, làm hết bài tập Tiếng Anh
+Q11.5 = 2
+# Nhờ AI làm slide, bài thuyết trình nhóm rồi nộp gần như nguyên bản
+Q11.6 = 3
+# Dùng AI viết bài dự thi, báo tường nhưng không khai báo phần AI hỗ trợ
+Q11.7 = 2
+# Nhờ AI giải thích lại khái niệm, công thức chưa hiểu trên lớp
+Q11.8 = 1
+# Tự làm xong rồi nhờ AI chỉ ra lỗi sai, gợi ý cách làm khác
+Q11.9 = 2
+# Nhờ AI ra câu hỏi trắc nghiệm để tự ôn trước khi kiểm tra
+Q11.10 = 3
+# Nội dung khác (nếu có)
+Q11.11 = 1
+
+## Câu 4. Khi sử dụng AI trong tự học, bạn nhận thấy những tác dụng nào đối với bản thân?
+##   [mỗi hàng chọn 1]  1=Rất đồng ý | 2=Đồng ý | 3=Phân vân | 4=Không đồng ý | 5=Rất không đồng ý
+# Hiểu bài nhanh hơn
+Q12.1 = 3
+# Kết quả học tập tốt hơn
+Q12.2 = 3
+# Chủ động tự học hơn
+Q12.3 = 1
+# Ít tự suy nghĩ, ít có ý tưởng riêng
+Q12.4 = 1
+# Phụ thuộc vào AI, khó tự làm bài khi không có AI
+Q12.5 = 2
+# Không còn nắm chắc kiến thức, nhanh quên
+Q12.6 = 2
+# Chủ quan, không chuẩn bị bài vì nghĩ khi có bài chỉ cần hỏi AI
+Q12.7 = 1
+# Tác dụng khác (nếu có)
+Q12.8 = 2
+
+# ----- III. KHÓ KHĂN TRONG VIỆC TỰ HỌC BẰNG AI CỦA HỌC SINH -----
+
+## Câu 1. Bạn gặp phải những khó khăn, hạn chế nào khi sử dụng AI trong tự học?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Không bao giờ
+# Không biết viết câu lệnh, hỏi nhiều lần AI vẫn trả lời không đúng ý
+Q13.1 = 2
+# Không nhận ra, không kiểm tra lại khi AI trả lời sai hoặc đưa tin giả
+Q13.2 = 2
+# Chỉ dùng theo thói quen, không biết công cụ AI nào hợp với từng môn
+Q13.3 = 1
+# Biết đáp án nhưng không hiểu cách làm, bị hỏi lại thì không giải thích được
+Q13.4 = 2
+# Không biết kiến thức AI đưa ra nằm ở bài nào trong sách giáo khoa
+Q13.5 = 1
+# Ngại mở sách giáo khoa, vở ghi vì hỏi AI nhanh hơn
+Q13.6 = 1
+# Ngại hỏi thầy cô, ít trao đổi với bạn bè
+Q13.7 = 1
+# Thiếu thiết bị (dùng chung điện thoại với người nhà), mạng Internet yếu
+Q13.8 = 1
+# Không có tài khoản; bản miễn phí bị giới hạn lượt hỏi, tính năng
+Q13.9 = 2
+# Bố mẹ giới hạn thời gian dùng điện thoại, máy tính
+Q13.10 = 3
+# Khó khăn, hạn chế khác (nếu có)
+Q13.11 = 2
+
+## Câu 2. Theo bạn, những nguyên nhân sau khiến học sinh trường THCS&THPT Thăng Long sử dụng AI chưa hiệu quả trong việc tự học ở mức độ nào?
+##   [mỗi hàng chọn 1]  1=Rất đồng ý | 2=Đồng ý | 3=Phân vân | 4=Không đồng ý | 5=Rất không đồng ý
+# Nhà trường chưa có quy định rõ: bài nào được dùng AI, dùng đến mức nào
+Q14.1 = 3
+# Chưa có ai hướng dẫn cách dùng AI để tự học (thầy cô, ngoại khóa, chuyên đề)
+Q14.2 = 3
+# Chưa có câu lạc bộ, tài liệu, website hỗ trợ dùng AI để học
+Q14.3 = 1
+# Chưa có công cụ AI chỉ gợi ý, không cho đáp án
+Q14.4 = 3
+# Thầy cô chưa kiểm tra được bài ở nhà là tự làm hay AI làm
+Q14.5 = 2
+# Gia đình chưa biết con dùng AI để học hay để chép bài
+Q14.6 = 3
+# Muốn làm nhanh xong bài để lướt mạng, chơi game
+Q14.7 = 2
+# Bài tập nhiều, sợ nộp muộn hoặc bị điểm kém
+Q14.8 = 1
+# Thấy bạn bè dùng AI làm bài vẫn được điểm cao
+Q14.9 = 3
+
+# ----- IV. ĐỀ XUẤT, GIẢI PHÁP -----
+
+## Câu 1. Theo bạn, thời gian sử dụng AI chiếm bao nhiêu trong tổng thời gian tự học là hợp lí? *
+##   [chọn 1]  1=100% | 2=Từ 50% đến dưới 100% | 3=Dưới 50%, chỉ dùng khi cần thiết | 4=Không dùng AI
+Q15 = 3
+
+## Câu 2. Bạn có những đề xuất nào để giúp học sinh trường THCS&THPT Thăng Long sử dụng AI hiệu quả, nâng cao năng lực tự học?
+##   [mỗi hàng chọn 1]  1=Rất cần thiết | 2=Cần thiết | 3=Bình thường | 4=Ít cần thiết | 5=Không cần thiết
+# Nhà trường ban hành quy định rõ ràng về việc dùng AI
+Q16.1 = 2
+# Tổ chức ngoại khóa, tập huấn, chuyên đề về dùng AI trong học tập; lồng ghép an ninh mạng vào bài học các môn
+Q16.2 = 1
+# Cẩm nang hướng dẫn dùng AI để tự học, Website, Fanpage học tập (bài viết, video ngắn...)
+Q16.3 = 1
+# Thành lập Câu lạc bộ, tổ chức cuộc thi (tìm lỗi sai của AI, báo tường điện tử 20/11)
+Q16.4 = 3
+# Bạn học tốt làm nhóm trưởng, hướng dẫn bạn cùng nhóm
+Q16.5 = 1
+# Trợ lí AI chỉ gợi ý, không cho đáp án
+Q16.6 = 2
+# Thầy cô kiểm tra nhanh “không AI” đầu giờ, xem sổ nhật kí tự học
+Q16.7 = 1
+# Gia đình cùng con kí cam kết, nhắc con cân đối thời gian dùng AI
+Q16.8 = 2
+
+## Câu 3. Khi được hướng dẫn cách sử dụng AI để tự học, bạn có thể nhận được những lợi ích gì?
+##   [mỗi hàng chọn 1]  1=Rất quan trọng | 2=Quan trọng | 3=Bình thường | 4=Ít quan trọng | 5=Không quan trọng
+# Biết viết câu lệnh để AI trả lời đúng ý
+Q17.1 = 1
+# Biết kiểm tra, phát hiện thông tin sai của AI
+Q17.2 = 2
+# Dùng AI để hiểu bài thay vì chép đáp án
+Q17.3 = 2
+# Biết kết hợp AI với sách giáo khoa, vở ghi và tài liệu khác
+Q17.4 = 3
+# Cân đối thời gian giữa dùng AI với học nhóm, trao đổi với bạn bè, thầy cô
+Q17.5 = 3
+# Nâng cao năng lực tự học và cải thiện kết quả học tập
+Q17.6 = 1
+# Biết dùng AI an toàn, trung thực; bảo vệ thông tin cá nhân, phòng tránh lừa đảo trực tuyến
+Q17.7 = 1
+
+## Câu 4. Theo bạn, các cách sử dụng AI sau đây hiệu quả ở mức độ nào?
+##   [mỗi hàng chọn 1]  1=Rất hiệu quả | 2=Hiệu quả | 3=Bình thường | 4=Ít hiệu quả | 5=Không hiệu quả
+# Sử dụng AI trong toàn bộ thời gian tự học
+Q18.1 = 3
+# Tự làm trước ít nhất 15 phút rồi mới hỏi AI
+Q18.2 = 1
+# Chỉ sử dụng AI khi gặp bài khó
+Q18.3 = 3
+# Chỉ sử dụng AI khi không có điều kiện tham khảo tài liệu
+Q18.4 = 2
+# Chỉ sử dụng AI khi không trao đổi được với bạn bè, thầy cô
+Q18.5 = 2
+# Tìm hiểu kĩ công cụ AI trước khi sử dụng
+Q18.6 = 3
+
+## Câu 5. Theo bạn, để tổ chức hiệu quả các hoạt động hướng dẫn sử dụng AI để tự học cho học sinh trường THCS&THPT Thăng Long, cần đảm bảo những yếu tố nào?
+##   [mỗi hàng chọn 1]  1=Rất quan trọng | 2=Quan trọng | 3=Bình thường | 4=Ít quan trọng | 5=Không quan trọng
+# Quy mô linh hoạt theo lớp/khối/toàn trường
+Q19.1 = 2
+# Lực lượng đa dạng: giáo viên, Đoàn trường, gia đình, chuyên gia, học sinh học tốt, câu lạc bộ của xã...
+Q19.2 = 3
+# Tần suất tổ chức thường xuyên theo tuần/tháng/học kì
+Q19.3 = 3
+# Nội dung gắn với từng môn học, có lồng ghép an ninh mạng
+Q19.4 = 2
+# Hình thức thực hành trực tiếp trên công cụ AI
+Q19.5 = 3
+
+## Câu 6. Bạn đã tham gia những hoạt động dưới đây ở mức độ nào?
+##   [mỗi hàng chọn 1]  1=Rất thường xuyên | 2=Thường xuyên | 3=Thỉnh thoảng | 4=Hiếm khi | 5=Chưa tham gia
+# Ngoại khóa, buổi cam kết sử dụng AI trung thực; tiết học có lồng ghép an ninh mạng
+Q20.1 = 2
+# Tập huấn “Chuyển đổi số và phát triển kinh tế số trong thanh niên” (14/11, cùng CLB Sáng tạo xanh của xã)
+Q20.2 = 2
+# Sinh hoạt, thi đua nhóm trong câu lạc bộ “Tự học cùng AI”; làm báo tường điện tử 20/11
+Q20.3 = 3
+# Cẩm nang hướng dẫn tự học cùng AI
+Q20.4 = 2
+# Website, Fanpage, nhóm Zalo câu lạc bộ
+Q20.5 = 1
+# Trợ lí AI hướng dẫn từng bước (NotebookLM)
+Q20.6 = 3
+# Kiểm tra nhanh “không AI”, sổ nhật kí tự học
+Q20.7 = 3
+
+## Câu 7. Sau khi tham gia các hoạt động trên, bạn thấy năng lực tự học của bản thân thay đổi như thế nào? (Chỉ đánh giá những hoạt động bạn đã tham gia)
+##   [mỗi hàng chọn 1]  1=Cải thiện rõ rệt | 2=Có cải thiện | 3=Không thay đổi | 4=Kém đi
+# Ngoại khóa, buổi cam kết sử dụng AI trung thực; tiết học có lồng ghép an ninh mạng
+Q21.1 = 3
+# Tập huấn “Chuyển đổi số và phát triển kinh tế số trong thanh niên” (14/11, cùng CLB Sáng tạo xanh của xã)
+Q21.2 = 1
+# Sinh hoạt, thi đua nhóm trong câu lạc bộ “Tự học cùng AI”; làm báo tường điện tử 20/11
+Q21.3 = 3
+# Cẩm nang hướng dẫn tự học cùng AI
+Q21.4 = 1
+# Website, Fanpage, nhóm Zalo câu lạc bộ
+Q21.5 = 1
+# Trợ lí AI hướng dẫn từng bước (NotebookLM)
+Q21.6 = 2
+# Kiểm tra nhanh “không AI”, sổ nhật kí tự học
+Q21.7 = 1
+# Hoạt động khác (nếu có)
+Q21.8 = 3
+
+# ----- NHÓM CHÚNG EM XIN TRÂN TRỌNG CẢM ƠN! -----

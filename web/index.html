@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form điền sẵn</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <strong>Form điền sẵn</strong>
+    <span>Sửa từng câu hoặc random trong vùng bạn chọn. Tool không tự bấm Gửi.</span>
+  </div>
+  <form id="load-form">
+    <label class="sr" for="source">Link Google Form</label>
+    <input id="source" name="source" type="url" spellcheck="false" placeholder="https://docs.google.com/forms/.../viewform" value="https://docs.google.com/forms/d/e/1FAIpQLSdRzbbA1uJvjHCsZJnriEdRV2j4QSNsi5tre0BW0HinUVZQ2A/viewform">
+    <button type="submit" id="load-btn">Tải form</button>
+  </form>
+</header>
+<p id="status" role="status"></p>
+<div class="workspace" id="workspace" hidden>
+  <aside id="nav"></aside>
+  <main id="main"></main>
+</div>
+<div class="dock" id="dock" hidden>
+  <div class="dock-row">
+    <button type="button" data-act="preset" title="Khối và giới tính random theo bảng cơ cấu. Học lực random 3 mức đầu. Thời gian tự học bỏ mốc trên 120 phút. Câu chọn nhiều random từng ô. Lưới random 3 mức tích cực.">Mẫu đã test</button>
+    <button type="button" data-act="first3">3 mức đầu</button>
+    <button type="button" data-act="reroll">Random lại</button>
+    <button type="button" data-act="clear">Xóa chọn</button>
+    <button type="button" data-act="unlock-all">Bỏ khóa hết</button>
+    <span id="stats"></span>
+  </div>
+  <div class="dock-row">
+    <p id="warn"></p>
+    <button type="button" data-act="copy">Sao chép link</button>
+    <button type="button" class="primary" data-act="open">Mở form đã điền</button>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
